@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">project1</string>
+    <string name="daltonismo_um_dist_rbio_da_vis_o_que_interfere_na_percep_o_das_cores_tamb_m_chamado_de_discromatopsia_ou_discromopsia_sua_principal_caracter_stica_a_dificuldade_para_distinguir_o_vermelho_e_o_verde_e_com_menos_frequ_ncia_o_azul_e_o_amarelo">
+        Color blindness is a vision disorder that interferes with color perception. Also called dyschromatopsia or
+        dyschromopsia, its main feature is the difficulty in distinguishing between red and green and, less often, blue
+        and yellow.
+    </string>
+    <string name="o_que">" Which is?"</string>
+    <string name="fa_a_o_teste">" Do the test!"</string>
+    <string name="resposta_2">Answer 2</string>
+    <string name="resposta3">Answer 3</string>
+    <string name="resposta_1">Answer 1</string>
+    <string name="resposta_do_seu_teste">" Answer from your test"</string>
+    <string name="teste_1">Test 1</string>
+    <string name="suas_resposta">" your answers"</string>
+    <string name="teste_2">Test 2</string>
+    <string name="teste_3">Test 3</string>
+    <string name="verificar">" Check"</string>
+    <string name="digite">"type it "</string>
+    <string name="cancelar">Cancel</string>
+    <string name="ok">Ok</string>
+    <string name="que_numero_voc_ver_embaixo">" What number do you see below?"</string>
+</resources>
