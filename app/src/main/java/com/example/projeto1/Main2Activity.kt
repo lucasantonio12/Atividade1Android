@@ -12,13 +12,36 @@ class Main2Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
 
+        var params = intent.extras
+        var img = params?.getInt("imagemCod")
 
+        when(img){
+            1 ->{
+                    imageView.setImageResource(R.drawable.im1)
+            }
 
-        var i = Intent()
-        confirmButon.setOnClickListener {
-             i.putExtra("DADOS_RESPOSTA", "Deu certo!")
-             setResult(Activity.RESULT_OK,i)
-             finish()
+            2->{
+                    imageView.setImageResource(R.drawable.im2)
+            }
+
+            3->{
+                    imageView.setImageResource(R.drawable.im4)
+            }
         }
+
+        cancelarButton.setOnClickListener{
+            var i = Intent(this, MainActivity::class.java)
+            startActivity(i)
+        }
+
+        confirmButon.setOnClickListener {
+            var i = Intent()
+            i.putExtra("DADOS_RESPOSTA",digiteEdit.text.toString())
+            setResult(Activity.RESULT_OK,i)
+            finish()
+
+        }
+
     }
+
 }
