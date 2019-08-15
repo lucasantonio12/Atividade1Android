@@ -36,13 +36,17 @@ class MainActivity : AppCompatActivity() {
             result2 = resultT2.text.toString().toInt()
             result3 = resultT3.text.toString().toInt()
 
+
             if(result1 == 2 && result2 == 74 && result3 == 5){
                 resultFinal.text = ("Você não é daltonico")
 
-            }else{
+            }else if(result1 != 0 && result2 !=0 && result3 != 0){
                 resultFinal.text = ("Você é daltonico")
 
+            }else{
+                Toast.makeText(this,"Por favor faça os testes!",Toast.LENGTH_LONG).show()
             }
+
         }
     }
 
